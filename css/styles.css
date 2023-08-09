@@ -1,0 +1,66 @@
+* {
+    font-family: Gloria Hallelujah;
+}
+:root {
+    --tale: #9cd0c3;
+    --yellow: #f7e29e;
+    --pink: #e7a29c;
+    --green: #b5efa2;
+    --blue: #a8d3f5;
+    --white: #fff;
+    --darkgreen: #57827b;
+    --violet: #dcc3dc;
+    --darkyellow: #e7bf2b;
+}
+#burguer {
+    background-color: var(--yellow);
+    display: block;
+    text-align:end;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+#itens {
+    display: none;
+    background-color:var(--yellow);
+    padding-top: 1rem;
+} 
+
+li{
+    padding-bottom: 0.5rem;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    color:var(--darkyellow);
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    background-color: var(--yellow);
+    
+}
+.title{
+    background-color: var(--violet);
+    padding-left: 0.5rem;
+}
+p {
+    margin: 0;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+}
+#photo{
+    display: flex;
+    align-items: right;
+    justify-content: end;
+    float: right;
+    padding: 1rem;
+}
+img{
+    width:50vw;
+}
