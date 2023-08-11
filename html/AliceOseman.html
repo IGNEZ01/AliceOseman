@@ -12,9 +12,11 @@
 </head>
 <body>
     <header id="header">
-            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <div id="btn-menu">
+            <button id="btn-menu"><span id="burguer" class="material-icons" onclick="clickMenu()">menu</span></button>
+        </div>
             <nav id="itens">
-                <ul>
+                <ul id="menu">
                     <li>
                         <a class="nav-link" href="#About">About</a>
                     </li>
@@ -24,6 +26,9 @@
                     <li>
                         <a class="nav-link" href="#More_books">More Books</a>
                     </li>
+                    <li>
+                        <a class="nav-link" href="#Buy_the_books">Buy the Books</a>
+                    </li>
                 </ul>
             </nav>
             <h1>Alice Oseman</h1>
@@ -32,7 +37,7 @@
             <section id="About">
                 <h2 class="title">About</h2>
                     <div id="photo">
-                        <img src="../assets/alice-oseman.jpeg" alt="Alice Oseman">
+                        <img id="alice" src="../assets/alice-oseman.jpeg" alt="Alice Oseman">
                     </div>
                             <p>
                                 Alice Oseman is an award-winning author, illustrator, and screenwriter.
@@ -54,8 +59,15 @@
                                 and The British Book Awards Illustrator of the Year.
                             </p>
             </section>
-            <section id="Heartstopper"></section>
-            <section id="More_books"></section>
+            <section id="Heartstopper">
+                <h2 class="title">Heartstopper</h2>
+            </section>
+            <section id="More_books">
+                <h2 class="title">More Books</h2>
+            </section>
+            <section id="Buy_the_books">
+                <h2 class="title">Buy the Books</h2>
+            </section>
         </main>
     <script src="../javascript/script.js"></script>
 </body>
