@@ -117,23 +117,27 @@ iframe{
     color:var(--pink);
 }
 
-.profile{
-    padding-top: 1rem;
-    padding-left: 1rem;
-    width:30rem;
-    height:40rem;
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.profiles{
+    width:1rem;
+}
 #books{
     display: flex;
     flex-direction: row;
     justify-content: end;
     padding-left: 1rem;
 }
-
+.book{
+    display: block;
+}
 #solitaire{
     width: 15rem;
-}
+} 
+
 #alert{
     color:var(--pink);
     font-family: 'Space Grotesk';
@@ -157,5 +161,14 @@ iframe{
     }
     #alice{
         width:15rem; /* 240px */
+    }
+    #profile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #solitaire{
+        float: left;
+        margin-right: 1rem;
     }
 }
